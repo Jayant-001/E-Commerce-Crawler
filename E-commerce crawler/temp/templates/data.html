@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Show data here...
+    <br>
+    <h3>{{ data }}</h3>
+
+    <br><br>
+
+    <table style="align-items: center;">
+        <tr>
+            <th>Product Name: </th>
+            <td>{{ data['title'] }}</td>
+        </tr>
+        <tr>
+            <th>Product Price: </th>
+            <td>{{ data['price'] }}</td>
+        </tr>
+        <tr>
+            <th>Availablity: </th>
+            <td>{{ data['available'] }}</td>
+        </tr>
+        <tr>
+            <th>Seller Details: </th>
+            <td>{{ data['seller'] }}</td>
+        </tr>
+        <tr>
+            <th>Rating Status: </th>
+            <td>{{ data['rating'] }}</td>
+        </tr>
+    </table>
+
+</body>
+</html>
